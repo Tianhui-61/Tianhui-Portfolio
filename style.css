@@ -1,0 +1,455 @@
+/* =========================
+   Global Style
+========================= */
+
+
+body {
+
+
+    font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Arial,
+    sans-serif;
+
+
+    background:#F7F3EA;
+
+
+    color:#1F2937;
+
+
+    margin:0;
+
+
+    line-height:1.8;
+
+
+}
+
+
+
+
+/* =========================
+   Layout
+========================= */
+
+
+.layout {
+
+
+    max-width:1200px;
+
+
+    margin:70px auto;
+
+
+    padding:0 50px;
+
+
+    display:grid;
+
+
+    grid-template-columns:300px 1fr;
+
+
+    gap:90px;
+
+
+}
+
+
+
+
+
+
+/* =========================
+   Sidebar
+========================= */
+
+
+.sidebar {
+
+
+    position:sticky;
+
+
+    top:50px;
+
+
+    height:max-content;
+
+
+}
+
+
+
+.profile-img {
+
+
+    width:150px;
+
+
+    height:150px;
+
+
+    object-fit:cover;
+
+
+    object-position:center 30%;
+
+
+    border-radius:50%;
+
+
+    border:3px solid #B08D57;
+
+
+    margin-bottom:25px;
+
+
+}
+
+
+
+.sidebar h1 {
+
+
+    font-size:42px;
+
+
+    color:#332417;
+
+
+    letter-spacing:-1px;
+
+
+    margin:10px 0;
+
+
+}
+
+
+
+.sidebar h2 {
+
+
+    font-size:22px;
+
+
+    margin:0;
+
+
+}
+
+
+
+.subtitle {
+
+
+    color:#9A7950;
+
+
+    font-size:16px;
+
+
+}
+
+
+
+.sidebar h3 {
+
+
+    font-size:18px;
+
+
+    color:#8B6F47;
+
+
+}
+
+
+
+.sidebar p {
+
+
+    font-size:15px;
+
+
+    color:#4B5563;
+
+
+}
+
+
+
+hr {
+
+
+    border:none;
+
+
+    border-top:1px solid #D9CBB8;
+
+
+    margin:35px 0;
+
+
+}
+
+
+
+
+
+
+/* =========================
+   Main Content
+========================= */
+
+
+.main-content section {
+
+
+    margin-bottom:70px;
+
+
+}
+
+
+
+.main-content h3 {
+
+
+    font-size:30px;
+
+
+    color:#8B6F47;
+
+
+    margin-bottom:25px;
+
+
+    letter-spacing:-0.5px;
+
+
+}
+
+
+
+.main-content h4 {
+
+
+    font-size:20px;
+
+
+    color:#332417;
+
+
+    margin-bottom:10px;
+
+
+}
+
+
+
+.main-content p {
+
+
+    font-size:16px;
+
+
+    color:#4B5563;
+
+
+}
+
+
+
+
+ul {
+
+
+    padding-left:20px;
+
+
+}
+
+
+
+li {
+
+
+    margin-bottom:10px;
+
+
+    color:#4B5563;
+
+
+}
+
+
+
+
+
+
+
+/* =========================
+   Cards
+========================= */
+
+
+.card {
+
+
+    background:white;
+
+
+    padding:30px;
+
+
+    border-radius:14px;
+
+
+    border:1px solid #E7DDCF;
+
+
+    margin-bottom:25px;
+
+
+    transition:0.3s;
+
+
+}
+
+
+
+.card:hover {
+
+
+    transform:translateY(-5px);
+
+
+    box-shadow:
+    0 15px 30px rgba(0,0,0,0.08);
+
+
+}
+
+
+
+.tag {
+
+
+    color:#8B6F47 !important;
+
+
+    font-size:14px !important;
+
+
+    font-weight:600;
+
+
+}
+
+
+
+
+
+
+
+/* =========================
+   Buttons
+========================= */
+
+
+.buttons {
+
+
+    margin-top:30px;
+
+
+}
+
+
+
+.button {
+
+
+    display:block;
+
+
+    text-align:center;
+
+
+    padding:12px;
+
+
+    margin-bottom:12px;
+
+
+    background:#8B6F47;
+
+
+    color:white;
+
+
+    text-decoration:none;
+
+
+    border-radius:8px;
+
+
+    font-size:14px;
+
+
+}
+
+
+
+.button:hover {
+
+
+    background:#6F5436;
+
+
+}
+
+
+
+
+
+
+
+/* =========================
+   Responsive
+========================= */
+
+
+@media(max-width:900px){
+
+
+.layout{
+
+
+    grid-template-columns:1fr;
+
+
+    padding:0 25px;
+
+
+}
+
+
+
+.sidebar{
+
+
+    position:relative;
+
+
+}
+
+
+
+}
